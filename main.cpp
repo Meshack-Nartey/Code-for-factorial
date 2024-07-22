@@ -1,12 +1,20 @@
 #include <iostream>
 #include<cmath>
 using namespace std;
+//function declaration.
 int myfactorial();
+
+
 int main()
 {
+    //calling the function
     myfactorial();
     return 0;
 }
+
+
+
+//function for the factorial.
 
 int myfactorial() {
     unsigned long long factorial = 1;
